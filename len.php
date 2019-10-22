@@ -32,6 +32,7 @@ function simile($x,$y){
 	echo $max.PHP_EOL;
 	return true;
 }
+
 //перехватываем исключение 
 try{
 	simile($mass,$mass1);
